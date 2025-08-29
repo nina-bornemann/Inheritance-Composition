@@ -1,5 +1,7 @@
 package com.ninabornemann;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -20,6 +22,11 @@ public class Main {
         System.out.println(bike1.typeInfo());
         System.out.println(bike1);
         System.out.println(bike1.information());
+
+        // Polymorphism
+
+        Vehicle[] vehicles = {vehicle1, car1, car2, bike1};
+        System.out.println(Arrays.toString(vehicles));
 
         // Composition Trains
 
