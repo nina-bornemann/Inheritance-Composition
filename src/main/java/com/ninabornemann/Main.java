@@ -3,7 +3,7 @@ package com.ninabornemann;
 public class Main {
     public static void main(String[] args) {
 
-        // Inheritance
+        // Inheritance Cars and Motorcycles
 
         Vehicle vehicle1 = new Vehicle("MAN", "LKW", 1998);
         System.out.println(vehicle1);
@@ -21,7 +21,11 @@ public class Main {
         System.out.println(bike1);
         System.out.println(bike1.information());
 
-        // Composition
+        // Composition Trains
+
+        Train train1 = new Train("Flixtrain", "special", 2020, 300, 5);
+        System.out.println(train1);
+        System.out.println(train1.informations());
 
 
 
