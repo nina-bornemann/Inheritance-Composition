@@ -1,4 +1,4 @@
-
+[![Java CI with Maven](https://github.com/nina-bornemann/Inheritance-Composition/actions/workflows/maven.yml/badge.svg)](https://github.com/nina-bornemann/Inheritance-Composition/actions/workflows/maven.yml)
 
 ## 💥 Description
 
